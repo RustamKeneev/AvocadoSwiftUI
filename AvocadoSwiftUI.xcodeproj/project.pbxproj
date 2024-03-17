@@ -14,6 +14,12 @@
 		FF0631692BA609A7009D5A6F /* AvocadoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631682BA609A7009D5A6F /* AvocadoSwiftUITests.swift */; };
 		FF0631732BA609A7009D5A6F /* AvocadoSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631722BA609A7009D5A6F /* AvocadoSwiftUIUITests.swift */; };
 		FF0631752BA609A7009D5A6F /* AvocadoSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631742BA609A7009D5A6F /* AvocadoSwiftUIUITestsLaunchTests.swift */; };
+		FF06318A2BA70771009D5A6F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0631892BA70771009D5A6F /* Launch Screen.storyboard */; };
+		FF06318F2BA71621009D5A6F /* AvocadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06318E2BA71621009D5A6F /* AvocadoView.swift */; };
+		FF0631912BA7165E009D5A6F /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631902BA7165E009D5A6F /* RipeningStagesView.swift */; };
+		FF0631932BA7191F009D5A6F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631922BA7191F009D5A6F /* SettingsView.swift */; };
+		FF0631972BA71AD3009D5A6F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631962BA71AD3009D5A6F /* AppView.swift */; };
+		FF0631992BA723A4009D5A6F /* ResipiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631982BA723A4009D5A6F /* ResipiesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		FF06316E2BA609A7009D5A6F /* AvocadoSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvocadoSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0631722BA609A7009D5A6F /* AvocadoSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoSwiftUIUITests.swift; sourceTree = "<group>"; };
 		FF0631742BA609A7009D5A6F /* AvocadoSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF0631892BA70771009D5A6F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FF06318E2BA71621009D5A6F /* AvocadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoView.swift; sourceTree = "<group>"; };
+		FF0631902BA7165E009D5A6F /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		FF0631922BA7191F009D5A6F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FF0631962BA71AD3009D5A6F /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		FF0631982BA723A4009D5A6F /* ResipiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResipiesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 		FF06314B2BA609A5009D5A6F = {
 			isa = PBXGroup;
 			children = (
+				FF0631892BA70771009D5A6F /* Launch Screen.storyboard */,
 				FF0631562BA609A5009D5A6F /* AvocadoSwiftUI */,
 				FF0631672BA609A7009D5A6F /* AvocadoSwiftUITests */,
 				FF0631712BA609A7009D5A6F /* AvocadoSwiftUIUITests */,
@@ -94,8 +107,10 @@
 		FF0631562BA609A5009D5A6F /* AvocadoSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FF06318D2BA715AB009D5A6F /* View */,
+				FF06318C2BA7159C009D5A6F /* Model */,
+				FF06318B2BA7158E009D5A6F /* Data */,
 				FF0631572BA609A5009D5A6F /* AvocadoSwiftUIApp.swift */,
-				FF0631592BA609A5009D5A6F /* ContentView.swift */,
 				FF06315B2BA609A6009D5A6F /* Assets.xcassets */,
 				FF06315D2BA609A6009D5A6F /* Preview Content */,
 			);
@@ -125,6 +140,33 @@
 				FF0631742BA609A7009D5A6F /* AvocadoSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = AvocadoSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		FF06318B2BA7158E009D5A6F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FF06318C2BA7159C009D5A6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF06318D2BA715AB009D5A6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF0631592BA609A5009D5A6F /* ContentView.swift */,
+				FF06318E2BA71621009D5A6F /* AvocadoView.swift */,
+				FF0631902BA7165E009D5A6F /* RipeningStagesView.swift */,
+				FF0631922BA7191F009D5A6F /* SettingsView.swift */,
+				FF0631962BA71AD3009D5A6F /* AppView.swift */,
+				FF0631982BA723A4009D5A6F /* ResipiesView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF06315F2BA609A6009D5A6F /* Preview Assets.xcassets in Resources */,
+				FF06318A2BA70771009D5A6F /* Launch Screen.storyboard in Resources */,
 				FF06315C2BA609A6009D5A6F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0631932BA7191F009D5A6F /* SettingsView.swift in Sources */,
 				FF06315A2BA609A5009D5A6F /* ContentView.swift in Sources */,
+				FF0631912BA7165E009D5A6F /* RipeningStagesView.swift in Sources */,
+				FF0631972BA71AD3009D5A6F /* AppView.swift in Sources */,
+				FF06318F2BA71621009D5A6F /* AvocadoView.swift in Sources */,
+				FF0631992BA723A4009D5A6F /* ResipiesView.swift in Sources */,
 				FF0631582BA609A5009D5A6F /* AvocadoSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AvocadoSwiftUI/Preview Content\"";
@@ -428,6 +477,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AvocadoSwiftUI/Preview Content\"";
@@ -456,6 +507,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
