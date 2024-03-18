@@ -25,6 +25,7 @@
 		FF06319F2BA76ADB009D5A6F /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06319E2BA76ADB009D5A6F /* HeaderData.swift */; };
 		FF0631A12BA81D9B009D5A6F /* AvocadoMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631A02BA81D9B009D5A6F /* AvocadoMainView.swift */; };
 		FF0631A32BA825D3009D5A6F /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631A22BA825D3009D5A6F /* DishesView.swift */; };
+		FF0631A52BA88312009D5A6F /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631A42BA88312009D5A6F /* FactsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		FF06319E2BA76ADB009D5A6F /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		FF0631A02BA81D9B009D5A6F /* AvocadoMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoMainView.swift; sourceTree = "<group>"; };
 		FF0631A22BA825D3009D5A6F /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		FF0631A42BA88312009D5A6F /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				FF06319A2BA75C6E009D5A6F /* HeaderView.swift */,
 				FF0631A02BA81D9B009D5A6F /* AvocadoMainView.swift */,
 				FF0631A22BA825D3009D5A6F /* DishesView.swift */,
+				FF0631A42BA88312009D5A6F /* FactsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				FF0631A12BA81D9B009D5A6F /* AvocadoMainView.swift in Sources */,
 				FF06315A2BA609A5009D5A6F /* ContentView.swift in Sources */,
 				FF0631912BA7165E009D5A6F /* RipeningStagesView.swift in Sources */,
+				FF0631A52BA88312009D5A6F /* FactsView.swift in Sources */,
 				FF0631972BA71AD3009D5A6F /* AppView.swift in Sources */,
 				FF06318F2BA71621009D5A6F /* AvocadoView.swift in Sources */,
 				FF0631992BA723A4009D5A6F /* ResipiesView.swift in Sources */,
