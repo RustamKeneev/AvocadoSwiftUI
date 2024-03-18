@@ -21,6 +21,9 @@
 		FF0631972BA71AD3009D5A6F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631962BA71AD3009D5A6F /* AppView.swift */; };
 		FF0631992BA723A4009D5A6F /* ResipiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631982BA723A4009D5A6F /* ResipiesView.swift */; };
 		FF06319B2BA75C6E009D5A6F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06319A2BA75C6E009D5A6F /* HeaderView.swift */; };
+		FF06319D2BA76A0C009D5A6F /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06319C2BA76A0C009D5A6F /* HeaderModel.swift */; };
+		FF06319F2BA76ADB009D5A6F /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06319E2BA76ADB009D5A6F /* HeaderData.swift */; };
+		FF0631A12BA81D9B009D5A6F /* AvocadoMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631A02BA81D9B009D5A6F /* AvocadoMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		FF0631962BA71AD3009D5A6F /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		FF0631982BA723A4009D5A6F /* ResipiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResipiesView.swift; sourceTree = "<group>"; };
 		FF06319A2BA75C6E009D5A6F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FF06319C2BA76A0C009D5A6F /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		FF06319E2BA76ADB009D5A6F /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		FF0631A02BA81D9B009D5A6F /* AvocadoMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,7 @@
 		FF06318B2BA7158E009D5A6F /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				FF06319E2BA76ADB009D5A6F /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -154,6 +161,7 @@
 		FF06318C2BA7159C009D5A6F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FF06319C2BA76A0C009D5A6F /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 				FF0631962BA71AD3009D5A6F /* AppView.swift */,
 				FF0631982BA723A4009D5A6F /* ResipiesView.swift */,
 				FF06319A2BA75C6E009D5A6F /* HeaderView.swift */,
+				FF0631A02BA81D9B009D5A6F /* AvocadoMainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,12 +313,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0631932BA7191F009D5A6F /* SettingsView.swift in Sources */,
+				FF06319D2BA76A0C009D5A6F /* HeaderModel.swift in Sources */,
+				FF0631A12BA81D9B009D5A6F /* AvocadoMainView.swift in Sources */,
 				FF06315A2BA609A5009D5A6F /* ContentView.swift in Sources */,
 				FF0631912BA7165E009D5A6F /* RipeningStagesView.swift in Sources */,
 				FF0631972BA71AD3009D5A6F /* AppView.swift in Sources */,
 				FF06318F2BA71621009D5A6F /* AvocadoView.swift in Sources */,
 				FF0631992BA723A4009D5A6F /* ResipiesView.swift in Sources */,
 				FF0631582BA609A5009D5A6F /* AvocadoSwiftUIApp.swift in Sources */,
+				FF06319F2BA76ADB009D5A6F /* HeaderData.swift in Sources */,
 				FF06319B2BA75C6E009D5A6F /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
