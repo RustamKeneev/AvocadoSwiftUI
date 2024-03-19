@@ -28,6 +28,9 @@
 		FF0631A52BA88312009D5A6F /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631A42BA88312009D5A6F /* FactsView.swift */; };
 		FF0631A72BA89E13009D5A6F /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631A62BA89E13009D5A6F /* FactModel.swift */; };
 		FF0631A92BA8A464009D5A6F /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631A82BA8A464009D5A6F /* FactData.swift */; };
+		FF0631AB2BA8AB63009D5A6F /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631AA2BA8AB63009D5A6F /* RecipeModel.swift */; };
+		FF0631AD2BA8AC5B009D5A6F /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631AC2BA8AC5B009D5A6F /* RecipeData.swift */; };
+		FF0631AF2BA8AD74009D5A6F /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0631AE2BA8AD74009D5A6F /* RecipeCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		FF0631A42BA88312009D5A6F /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
 		FF0631A62BA89E13009D5A6F /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 		FF0631A82BA8A464009D5A6F /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
+		FF0631AA2BA8AB63009D5A6F /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		FF0631AC2BA8AC5B009D5A6F /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		FF0631AE2BA8AD74009D5A6F /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +169,7 @@
 			children = (
 				FF06319E2BA76ADB009D5A6F /* HeaderData.swift */,
 				FF0631A82BA8A464009D5A6F /* FactData.swift */,
+				FF0631AC2BA8AC5B009D5A6F /* RecipeData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -172,6 +179,7 @@
 			children = (
 				FF06319C2BA76A0C009D5A6F /* HeaderModel.swift */,
 				FF0631A62BA89E13009D5A6F /* FactModel.swift */,
+				FF0631AA2BA8AB63009D5A6F /* RecipeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +197,7 @@
 				FF0631A02BA81D9B009D5A6F /* AvocadoMainView.swift */,
 				FF0631A22BA825D3009D5A6F /* DishesView.swift */,
 				FF0631A42BA88312009D5A6F /* FactsView.swift */,
+				FF0631AE2BA8AD74009D5A6F /* RecipeCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,9 +335,11 @@
 			files = (
 				FF0631932BA7191F009D5A6F /* SettingsView.swift in Sources */,
 				FF06319D2BA76A0C009D5A6F /* HeaderModel.swift in Sources */,
+				FF0631AF2BA8AD74009D5A6F /* RecipeCardView.swift in Sources */,
 				FF0631A92BA8A464009D5A6F /* FactData.swift in Sources */,
 				FF0631A32BA825D3009D5A6F /* DishesView.swift in Sources */,
 				FF0631A12BA81D9B009D5A6F /* AvocadoMainView.swift in Sources */,
+				FF0631AB2BA8AB63009D5A6F /* RecipeModel.swift in Sources */,
 				FF06315A2BA609A5009D5A6F /* ContentView.swift in Sources */,
 				FF0631912BA7165E009D5A6F /* RipeningStagesView.swift in Sources */,
 				FF0631A52BA88312009D5A6F /* FactsView.swift in Sources */,
@@ -336,6 +347,7 @@
 				FF06318F2BA71621009D5A6F /* AvocadoView.swift in Sources */,
 				FF0631A72BA89E13009D5A6F /* FactModel.swift in Sources */,
 				FF0631992BA723A4009D5A6F /* ResipiesView.swift in Sources */,
+				FF0631AD2BA8AC5B009D5A6F /* RecipeData.swift in Sources */,
 				FF0631582BA609A5009D5A6F /* AvocadoSwiftUIApp.swift in Sources */,
 				FF06319F2BA76ADB009D5A6F /* HeaderData.swift in Sources */,
 				FF06319B2BA75C6E009D5A6F /* HeaderView.swift in Sources */,
