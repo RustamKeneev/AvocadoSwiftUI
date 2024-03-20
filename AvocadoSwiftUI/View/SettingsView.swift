@@ -11,6 +11,7 @@ struct SettingsView: View {
     //MARK: - PROPERTIES
     @State private var enableNotification: Bool = true
     @State private var backgroundRefresh: Bool = false
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
@@ -38,6 +39,15 @@ struct SettingsView: View {
                     }
                     Toggle(isOn: $backgroundRefresh){
                         Text("Background refresh")
+                    }
+                    .onChange(of: backgroundRefresh) { newValue in
+                        if newValue {
+                            // ON DARK MODE
+                            UIApplication.shared.windows.first?.rootViewController?.overrideUserInterfaceStyle = .dark
+                        } else {
+                            // OFF DARK MODE
+                            UIApplication.shared.windows.first?.rootViewController?.overrideUserInterfaceStyle = .light
+                        }
                     }
                 }//: SECTION
                 
