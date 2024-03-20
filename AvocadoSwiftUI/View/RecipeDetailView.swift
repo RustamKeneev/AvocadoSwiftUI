@@ -11,6 +11,7 @@ struct RecipeDetailView: View {
     //MARK: - PROPERIES
     var recipe: Recipe
     @State private var pulsate: Bool = false
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false){
@@ -74,31 +75,34 @@ struct RecipeDetailView: View {
         }
         .edgesIgnoringSafeArea(.top)
         .overlay(
-            HStack {
-                Spacer()
-                VStack {
-                    Button(action: {
-                        //ACTION
-                    }, label: {
-                        Image(systemName: "chevron.down.circle.fill")
-                            .font(.title)
-                            .foregroundColor(Color.white)
-                            .shadow(radius: 4)
-                            .opacity(self.pulsate ? 1 : 0.6)
-                            .scaleEffect(self.pulsate ? 1.2 : 0.8, anchor: .center)
-                            .animation(Animation.easeInOut(duration: 1.5).repeatForever(autoreverses: true))
-                })
-                    .padding(.trailing, 20)
-                    .padding(.top, 24)
-                Spacer()
-                }//: VSTACK
-            }//: HSTACK
+          HStack {
+            Spacer()
+            VStack {
+              Button(action: {
+                // ACTION
+                self.presentationMode.wrappedValue.dismiss()
+              }, label: {
+                Image(systemName: "chevron.down.circle.fill")
+                  .font(.title)
+                  .foregroundColor(Color.white)
+                  .shadow(radius: 4)
+                  .opacity(self.pulsate ? 1 : 0.6)
+                  .scaleEffect(self.pulsate ? 1.2 : 0.8, anchor: .center)
+              })
+                .padding(.trailing, 20)
+                .padding(.top, 24)
+              Spacer()
+            }
+          }
         )
-        .onAppear(){
-            self.pulsate.toggle()
+        .onAppear() {
+            withAnimation(Animation.easeInOut(duration: 1.5).repeatForever(autoreverses: true)) {
+                self.pulsate.toggle()
+            }
         }
+      }
     }
-}
+
 
 #Preview {
     RecipeDetailView(recipe: recipeData[0])
